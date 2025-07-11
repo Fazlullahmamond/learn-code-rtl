@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ps" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML زده کړه - کوډ زده کړه</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="subject-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2 class="brand-title">کوډ زده کړه</h2>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">کور</a>
+                <a href="#" class="nav-link">کورسونه</a>
+                <a href="#" class="nav-link">زموږ په اړه</a>
+                <a href="#" class="nav-link">اړیکه</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html" class="breadcrumb-link">کور</a>
+            <span class="breadcrumb-separator">←</span>
+            <span class="breadcrumb-current" id="currentSubject">HTML</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <!-- Right Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h3 class="sidebar-title" id="sidebarTitle">د HTML زده کړې فهرست</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 25%"></div>
+                    </div>
+                    <span class="progress-text">پرمختګ: ۲۵٪</span>
+                </div>
+                
+                <nav class="sidebar-nav" id="sidebarNav">
+                    <!-- HTML Topics -->
+                    <div class="nav-section" data-subject="html">
+                        <div class="nav-group">
+                            <h4 class="nav-group-title">د HTML پیل</h4>
+                            <ul class="nav-list">
+                                <li><a href="#" class="nav-item active" data-topic="introduction">سریزه</a></li>
+                                <li><a href="#" class="nav-item" data-topic="getting-started">کار پیل کړئ</a></li>
+                                <li><a href="#" class="nav-item" data-topic="basic-structure">بنسټیز جوړښت</a></li>
+                                <li><a href="#" class="nav-item" data-topic="elements">د HTML عناصر</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="nav-group">
+                            <h4 class="nav-group-title">متني عناصر</h4>
+                            <ul class="nav-list">
+                                <li><a href="#" class="nav-item" data-topic="headings">سرلیکونه</a></li>
+                                <li><a href="#" class="nav-item" data-topic="paragraphs">پاراګرافونه</a></li>
+                                <li><a href="#" class="nav-item" data-topic="links">لینکونه</a></li>
+                                <li><a href="#" class="nav-item" data-topic="formatting">د متن بڼه ورکول</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="nav-group">
+                            <h4 class="nav-group-title">د رسنیو عناصر</h4>
+                            <ul class="nav-list">
+                                <li><a href="#" class="nav-item" data-topic="images">انځورونه</a></li>
+                                <li><a href="#" class="nav-item" data-topic="audio">غږ</a></li>
+                                <li><a href="#" class="nav-item" data-topic="video">ویډیو</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="nav-group">
+                            <h4 class="nav-group-title">جدولونه او فورمونه</h4>
+                            <ul class="nav-list">
+                                <li><a href="#" class="nav-item" data-topic="tables">جدولونه</a></li>
+                                <li><a href="#" class="nav-item" data-topic="forms">فورمونه</a></li>
+                                <li><a href="#" class="nav-item" data-topic="input-types">د ننوت ډولونه</a></li>
+                                <li><a href="#" class="nav-item" data-topic="buttons">تڼۍ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="nav-group">
+                            <h4 class="nav-group-title">پرمختللې موضوعات</h4>
+                            <ul class="nav-list">
+                                <li><a href="#" class="nav-item" data-topic="semantic">سمانټیک HTML</a></li>
+                                <li><a href="#" class="nav-item" data-topic="accessibility">لاس رسی</a></li>
+                                <li><a href="#" class="nav-item" data-topic="best-practices">غوره کړنلارې</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <div class="content-area">
+                <article class="lesson-content" id="lessonContent">
+                    <header class="lesson-header">
+                        <h1 class="lesson-title" id="lessonTitle">HTML ته پېژندنه</h1>
+                        <div class="lesson-meta">
+                            <span class="lesson-duration">وخت: ۱۰ دقیقې</span>
+                            <span class="lesson-level">کچه: ابتدایي</span>
+                        </div>
+                    </header>
+
+                    <div class="lesson-body">
+                        <section class="content-section">
+                            <h2>HTML څه شی دی؟</h2>
+                            <p>
+                                HTML د HyperText Markup Language لنډیز دی او دا د ویب پاڼو جوړولو معیاري ژبه ده.
+                                HTML له بېلابېلو عناصرو جوړ شوی چې د ویب پاڼې منځپانګه تشریح کوي.
+                            </p>
+                            
+                            <div class="info-box">
+                                <h3>مهم ټکي</h3>
+                                <p>HTML د پروګرامینګ ژبه نه ده، بلکې د منځپانګې جوړښت تعریفوي.</p>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>د HTML بنسټیز جوړښت</h2>
+                            <p>هر HTML سند یو بنسټیز جوړښت لري چې لاندې عناصر لري:</p>
+                            
+                            <div class="code-example">
+                                <div class="code-header">
+                                    <span class="code-title">مثال: د HTML بنسټیز جوړښت</span>
+                                    <button class="copy-btn" onclick="copyCode(this)">کاپي</button>
+                                </div>
+                                <pre class="code-block"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="ps" dir="rtl"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;د پاڼې سرلیک&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;سلام نړۍ!&lt;/h1&gt;
+    &lt;p&gt;دا زما لومړۍ HTML پاڼه ده.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                            </div>
+                        </section>
+                    </div>
+
+                    <footer class="lesson-footer">
+                        <div class="lesson-navigation">
+                            <button class="nav-btn prev-btn" disabled>
+                                <span>←</span>
+                                مخکنی درس
+                            </button>
+                            <button class="nav-btn next-btn" onclick="nextLesson()">
+                                بل درس
+                                <span>→</span>
+                            </button>
+                        </div>
+                        
+                        <div class="lesson-actions">
+                            <button class="action-btn bookmark-btn">
+                                <span>🔖</span>
+                                نښه‌ګذاري
+                            </button>
+                            <button class="action-btn share-btn">
+                                <span>📤</span>
+                                شریکه کړئ
+                            </button>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">کوډ زده کړه</h3>
+                    <p class="footer-description">
+                        د پروګرامینګ زده کړې پلیټفارم د پښتو کیفیتي موادو سره
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">کورسونه</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">HTML & CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">React</a></li>
+                        <li><a href="#">Node.js</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">ملاتړ</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">لارښود</a></li>
+                        <li><a href="#">موږ سره اړیکه</a></li>
+                        <li><a href="#">پرله پسې پوښتنې</a></li>
+                        <li><a href="#">نظریات او وړاندیزونه</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">ټولنیزې شبکې</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">ټیلګرام</a>
+                        <a href="#" class="social-link">انسټاګرام</a>
+                        <a href="#" class="social-link">یویټیوب</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ۱۴۰۳ کوډ زده کړه. ټول حقوق خوندي دي.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="subject-script.js"></script>
+</body>
+</html>
