@@ -2,7 +2,7 @@
 
 A simple and responsive HTML, CSS, and JavaScript project designed to teach coding concepts in right-to-left (RTL) languages like Persian and Pashto. It includes multi-subject navigation (HTML, CSS, JavaScript, etc.), a progress tracker, and mobile-friendly design.
 
-🌐 **[View Live Demo](https://fazlullahmamond.github.io/learn-code-rtlc/)**
+🌐 **[View Live Demo](https://fazlullahmamond.github.io/learn-code-rtl/)**
 
 ---
 
